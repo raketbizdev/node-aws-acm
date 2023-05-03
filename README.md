@@ -1,4 +1,4 @@
-# Node AWs ACM
+# Node AWS-ACM
 
 A lightweight npm package to interact with AWS Certificate Manager (ACM) using Node.js.
 
@@ -65,8 +65,9 @@ This script loads AWS credentials and region from the .env file and lists all SS
 
 ## Documentation
 
-For detailed documentation, refer to the source code and comments in the `node-aws-acm package.`
-For detailed documentation, refer to the source code and comments in the node-aws-acm package. Additionally, consult the following external resources for more information about AWS SDK and ACM:
+For detailed documentation, refer to the source code and comments in the `node-aws-acm` package.
+
+Additionally, consult the following external resources for more information about AWS SDK and ACM:
 
 - [AWS SDK for JavaScript in Node.js Documentation:](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/welcome.html) Official documentation for the AWS SDK for JavaScript, including usage examples, best practices, and API reference.
 - [AWS Certificate Manager (ACM) Documentation:](https://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html) Official documentation for AWS Certificate Manager, covering topics such as requesting and managing SSL/TLS certificates, certificate renewal, and domain validation.
