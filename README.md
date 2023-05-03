@@ -2,6 +2,15 @@
 
 A lightweight npm package to interact with AWS Certificate Manager (ACM) using Node.js.
 
+## Table of Contents
+
+- Description
+- Installation
+- Usage
+- Examples
+- Changelog
+- License
+
 ## Description
 
 node-aws-acm is a user-friendly and easy-to-use package for managing SSL/TLS certificates on AWS using the AWS Certificate Manager (ACM). The package provides a simple interface for connecting to ACM, allowing developers to perform various ACM-related tasks such as listing certificates, requesting new certificates, and managing domain validation.
@@ -18,6 +27,7 @@ You must have the following installed:
 
 - Node.js (version 16 or higher recommended)
 - AWS SDK for JavaScript
+- AWS credentials with permissions to use ACM
 
 ## Installation
 
@@ -66,16 +76,14 @@ This script loads AWS credentials and region from the .env file and lists all SS
 Alernatively use `examples` dir to test and check ssl certificates inside AWS ACM
 Note: you need to create `.env` file copy from `.env.example` file.
 
-```bash
-cd examples
-node listAllCertificates.js
+## Examples
 
-// or
+Examples can be found in the `examples` folder. The following operations are available:
 
-node getSpecificDomainCertificate.js
-```
-
-## Basic Usage with
+- Create a new certificate: `CreateCertificate.js`
+- Delete a domain certificate: `DeleteDomainCertificate.js`
+- Get a specific domain certificate: `getSpecificDomainCertificate.js`
+- List all certificates: `listAllCertificates.js`
 
 ## Documentation
 
@@ -86,6 +94,10 @@ Additionally, consult the following external resources for more information abou
 - [AWS SDK for JavaScript in Node.js Documentation:](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/welcome.html) Official documentation for the AWS SDK for JavaScript, including usage examples, best practices, and API reference.
 - [AWS Certificate Manager (ACM) Documentation:](https://docs.aws.amazon.com/acm/latest/userguide/acm-overview.html) Official documentation for AWS Certificate Manager, covering topics such as requesting and managing SSL/TLS certificates, certificate renewal, and domain validation.
   These resources will provide you with in-depth information about using the AWS SDK for JavaScript and working with the AWS Certificate Manager.
+
+## Changelog
+
+Refer to the CHANGELOG.md file for the list of changes and updates.
 
 ## License
 

@@ -2,6 +2,39 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.0.2 - 2023-05-03
+
+### Added
+
+- Added support for deleting an SSL/TLS certificate in AWS Certificate Manager.
+- Added examples for creating, listing, and deleting certificates.
+- Added JSDoc comments to the code for better documentation.
+
+### Changed
+
+- Refactored code for improved readability and maintainability.
+- Updated README.md with additional information about the package and usage instructions.
+- Upgraded dependencies to latest versions.
+
+### Removed
+
+None.
+
+## 1.0.1 - 2023-05-03
+
+### Added
+
+- None
+
+### Changed
+
+- Refactored code for improved readability and maintainability.
+- Updated README.md with additional information about the package and usage instructions.
+
+### Removed
+
+None.
+
 ## 1.0.0 - 2023-05-03
 
 ### Added
