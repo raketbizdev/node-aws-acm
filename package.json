@@ -1,6 +1,6 @@
 {
   "name": "node-aws-acm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight npm package to interact with AWS Certificate Manager (ACM) using Node.js.",
   "main": "index.js",
   "scripts": {
