@@ -46,7 +46,7 @@ AWS_SECRET_ACCESS_KEY=your_secret_access_key
 AWS_REGION=your_region
 ```
 
-Replace your_access_key_id, your_secret_access_key, and your_region with your actual AWS credentials and the desired region.
+Replace `your_access_key_id`, `your_secret_access_key`, and `your_region` with your actual AWS credentials and the desired region.
 
 2. Create a script that uses node-aws-acm to interact with ACM:
 
@@ -72,8 +72,10 @@ node listAllCertificates.js
 
 // or
 
-// node getSpecificDomainCertificate.js
+node getSpecificDomainCertificate.js
 ```
+
+## Basic Usage with
 
 ## Documentation
 
