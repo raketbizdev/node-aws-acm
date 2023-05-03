@@ -63,6 +63,18 @@ const acm = new ACMAutoConnect();
 
 This script loads AWS credentials and region from the .env file and lists all SSL/TLS certificates available in your ACM.
 
+Alernatively use `examples` dir to test and check ssl certificates inside AWS ACM
+Note: you need to create `.env` file copy from `.env.example` file.
+
+```bash
+cd examples
+node listAllCertificates.js
+
+// or
+
+// node getSpecificDomainCertificate.js
+```
+
 ## Documentation
 
 For detailed documentation, refer to the source code and comments in the `node-aws-acm` package.
