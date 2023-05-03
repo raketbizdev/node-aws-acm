@@ -1,0 +1,26 @@
+{
+  "name": "node-aws-acm",
+  "version": "1.0.0",
+  "description": "A lightweight npm package to interact with AWS Certificate Manager (ACM) using Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "AWS",
+    "SSL",
+    "AWS Certification Manager",
+    "ACM",
+    "Node package"
+  ],
+  "author": "Ruel Nopal",
+  "license": "ISC",
+  "peerDependencies": {
+    "aws-sdk": "^2.1370.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.1370.0",
+    "dotenv": "^16.0.3"
+  }
+}
